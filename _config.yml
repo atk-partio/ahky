@@ -1,3 +1,41 @@
-name: Your New Jekyll Site
+name: Infoähky
+year: XIV
+
+# List sponsors here
+sponsors:
+- name: Futurice
+  image: futurice.png
+  url: "http://www.futurice.com"
+- name: Solita
+  image: solita.png
+  url: "http://www.solita.fi"
+- name: Accenture
+  image: accenture.png
+  url: "http://www.accenture.fi"
+- name: Dream Broker
+  image: db.png
+  url: "http://dreambroker.com/fi/"
+- name: Bearing Point
+  image: bearingpoint.png
+  url: "http://www.bearingpoint.com/en-fi/"
+- name: Elisa
+  image: elisa.png
+  url: "http://www.elisa.fi"
+
+# Navigation links
+pages:
+- title: Etusivu
+  file: index.html
+- title: Ohjelma
+  file: ohjelma.html
+- title: Ohjeita
+  file: ohjeita.html
+- title: Ilmoittautuminen
+  file: ilmoittautuminen.html
+- title: Yhteystiedot
+  file: yhteystiedot.html
+
+
+# DO NOT EDIT BELOW THIS LINE
 markdown: redcarpet
 pygments: true
