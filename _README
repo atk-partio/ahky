@@ -1,0 +1,29 @@
+OHJEITA ÄHKYSIVUSTON PÄIVITTÄMISEEN
+===================================
+
+Yleistä
+-------
+
+jekyll; generointi jne.
+
+Sivuston rakenne
+----------------
+_ vs ei
+sivut
+kuvat
+tyylit yms.
+taustakuva
+
+Sivujen muokkaaminen
+--------------------
+
+TODO
+
+Sponsoreiden lisääminen
+-----------------------
+
+* Laita logot images/sponsors-kansioon. PNG-muoto, 220 px leveitä. Jos on tosi korkea
+  logo, tee kuva jossa on vasemmalla ja oikealla tyhjää että saat logosta suhteessa
+  pienemmän.
+* Lisää sponsorit _config.yml -tiedostoon. Täytä sekä nimi, kuvatiedoston nimi että
+  osoite, jonne linkki vie
