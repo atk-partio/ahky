@@ -38,3 +38,4 @@ nav_links:
 # DO NOT EDIT BELOW THIS LINE
 markdown: redcarpet
 pygments: true
+destination: ../infoahky
