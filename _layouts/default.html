@@ -6,22 +6,19 @@
         <title>{{ page.title }} - {{ site.name }} {{ site.year }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" media="screen,projection" href="css/main.css">
 
     </head>
     <body>
 
-        <div class="site">
+        <div id="page">
           <header id="header">
             <h1 class="title"><a href="/">{{ site.name }}
               <span class="year">{{ site.year }}<span></a></h1>
           </header>
           
-          <div class="content">
+          <div id="content">
           <section id="main">
           	{{ content }}
           </section>
@@ -40,7 +37,12 @@
           </aside>
           
           <nav id="nav">
-            TODO Nav
+          	<h2>Valikko</h2>
+        	<ul>
+            	{% for page in site.nav_links %}
+            		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	        	{% endfor %}
+            </ul>
           </nav>
           </div>
         </div>

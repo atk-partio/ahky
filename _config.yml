@@ -21,19 +21,18 @@ sponsors:
 - name: Elisa
   image: elisa.png
   url: "http://www.elisa.fi"
-
-# Navigation links
-pages:
+  
+nav_links:
 - title: Etusivu
-  file: index.html
+  url: index.html
 - title: Ohjelma
-  file: ohjelma.html
+  url: ohjelma.html
 - title: Ohjeita
-  file: ohjeita.html
+  url: ohjeita.html
 - title: Ilmoittautuminen
-  file: ilmoittautuminen.html
+  url: ilmoittautuminen.html
 - title: Yhteystiedot
-  file: yhteystiedot.html
+  url: yhteystiedot.html
 
 
 # DO NOT EDIT BELOW THIS LINE
