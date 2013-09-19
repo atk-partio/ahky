@@ -46,8 +46,7 @@ h2 {
 }
 
 #page {
-	width: 940px;
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	overflow: auto;
 	position: relative;
@@ -146,7 +145,7 @@ h1.title .year {
 /* TABLET SIZES                                                   */
 /******************************************************************/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 760px) {
 	
 	#main {
 		width: 55%;
@@ -164,9 +163,9 @@ h1.title .year {
 	
 	#nav {
 		position: absolute;
-		top: 0;
+		top: 1.2em;
 		right: 0;
-		padding: 0;
+		padding: 0 0.5em 0 0;
 	}
 	
 	#nav ul, #nav li {
@@ -179,7 +178,7 @@ h1.title .year {
 		font-family: 'Museo Slab', Gerogia, Times, serif;
 		background: none;
 		padding: 0 0 3px;
-		margin: 23px 0 0 12px;
+		margin: 0 0 0 12px;
 	}
 	
 	#nav a:hover, #nav a:active {
@@ -189,7 +188,7 @@ h1.title .year {
 	
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 980px) {
 	
 	html {
 		background: 50% 50% #AAA fixed url(../images/background.jpg);
@@ -199,11 +198,20 @@ h1.title .year {
 	body {
 		background: 0 0 repeat-x url(graphics/topbar.png);
 	}
+	
+	#page {
+		width: 940px;
+	}
 
 	#content {
 		margin: 2.5em 0;
 		background: #FFF;
 		overflow: auto;
+	}
+	
+	#nav {
+		padding: 0;
+		top: 23px;
 	}
 	
 	#header {
