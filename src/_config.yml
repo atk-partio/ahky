@@ -3,6 +3,9 @@ year: XIV
 
 # List sponsors here
 sponsors:
+- name: Futurice
+  image: futurice.png
+  url: "http://www.futurice.com"
 - name: Solita
   image: solita.png
   url: "http://www.solita.fi"
